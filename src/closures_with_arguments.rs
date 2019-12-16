@@ -3,5 +3,5 @@ pub fn run() {
         println!("{}", x);
     };
 
-    closures_var(101);
+    closures_var(2019);
 }
