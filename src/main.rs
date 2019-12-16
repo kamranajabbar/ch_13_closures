@@ -3,7 +3,8 @@
 //mod closures_used_in_real_app_function;
 //mod closures_used_in_real_app_closure;
 //mod closures_annotations;
-mod closures_capturing_environment;
+//mod closures_capturing_environment;
+mod closures_moving_ownership_to_closures_using_move;
 
 fn main() {
     //closures::run();
@@ -11,5 +12,6 @@ fn main() {
     //closures_used_in_real_app_function::run();
     //closures_used_in_real_app_closure::run();
     //closures_annotations::run();
-    closures_capturing_environment::run();
+    //closures_capturing_environment::run();
+    closures_moving_ownership_to_closures_using_move::run();
 }
