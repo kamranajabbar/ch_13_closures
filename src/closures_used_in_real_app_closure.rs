@@ -1,14 +1,7 @@
 use std::time::Duration;
 use std::thread;
 
-// fn simulated_expensive_calculation(intensity: u32) -> u32 {
-//     println!("Calculated slowly");
-//     thread::sleep(Duration::from_secs(2));
-//     intensity
-// }
-
 fn generate_workout(intensity: u32, random_number: u32) {
-    //let expension_result = simulated_expensive_calculation(intensity);
     let expension_closure = |num| {
         println!("Calculated slowly!");
         thread::sleep(Duration::from_secs(2));
